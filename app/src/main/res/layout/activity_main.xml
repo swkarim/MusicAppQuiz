@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicappquiz.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="8dp"
+        android:text="folders"
+        android:textAllCaps="true"
+        android:textSize="45sp"
+        android:background="@drawable/border"/>
+
+    <TextView
+        android:id="@+id/favorite_songs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:text="@string/favorite_songs"
+        android:textAllCaps="true"
+        android:textSize="34sp"
+        android:background="@drawable/border"/>
+
+    <TextView
+        android:id="@+id/album_name_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:text="@string/album_name_one"
+        android:textAllCaps="true"
+        android:textSize="34sp"
+        android:background="@drawable/border"/>
+
+</LinearLayout>

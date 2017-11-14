@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MusicAppQuiz</string>
+    <string name="favorite_songs">favorites</string>
+    <string name="album_name_one">drive ost</string>
+</resources>
